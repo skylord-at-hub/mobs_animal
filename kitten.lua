@@ -56,6 +56,7 @@ mobs:register_mob("mobs_animal:kitten", {
 		speed_normal = 42,
 		stand_start = 97, stand_end = 192,
 		walk_start = 0, walk_end = 96,
+		run_start = 0, run_end = 96, run_speed = 50,
 		stoodup_start = 0, stoodup_end = 0,
 	},
 	follow = {

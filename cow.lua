@@ -50,7 +50,7 @@ mobs:register_mob("mobs_animal:cow", {
 		stand_start = 0, stand_end = 30, stand_speed = 20,
 		stand1_start = 35, stand1_end = 75, stand1_speed = 20,
 		walk_start = 85, walk_end = 114, walk_speed = 20,
-		run_start = 120, run_end = 140, run_speed = 30,
+		run_start = 120, run_end = 140, run_speed = 40,
 		punch_start = 145, punch_end = 160, punch_speed = 20,
 		die_start = 165, die_end = 185, die_speed = 25, die_loop = false
 	},

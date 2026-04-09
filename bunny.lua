@@ -40,6 +40,7 @@ mobs:register_mob("mobs_animal:bunny", {
 		speed_normal = 15,
 		stand_start = 1, stand_end = 15,
 		walk_start = 16, walk_end = 24,
+		run_start = 16, run_end = 24, run_speed = 40,
 		punch_start = 16, punch_end = 24
 	},
 	follow = {"farming:carrot", "farming_plus:carrot_item", "default:grass_1"},

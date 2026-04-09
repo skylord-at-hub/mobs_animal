@@ -43,7 +43,7 @@ mobs:register_mob("mobs_animal:chicken", {
 		stand_start = 1, stand_end = 30, stand_speed = 28,
 		stand1_start = 31, stand1_end = 70, stand1_speed = 32,
 		walk_start = 71, walk_end = 90, walk_speed = 24,
-		run_start = 91, run_end = 110, run_speed = 24
+		run_start = 91, run_end = 110, run_speed = 34
 	},
 	follow = {
 		"farming:seed_wheat", "farming:seed_cotton", "farming:seed_barley",

@@ -43,6 +43,7 @@ mobs:register_mob("mobs_animal:pumba", {
 		speed_normal = 15,
 		stand_start = 25, stand_end = 55,
 		walk_start = 70, walk_end = 100,
+		run_start = 70, run_end = 100, run_speed = 40,
 		punch_start = 70, punch_end = 100,
 		-- no specific dying animation, so use 2 frames at 1fps and rotate
 		die_start = 1, die_end = 2, die_speed = 1,
