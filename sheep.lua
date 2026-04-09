@@ -113,6 +113,7 @@ for _, col in ipairs(all_colours) do
 			speed_normal = 15, speed_run = 15,
 			stand_start = 0, stand_end = 80,
 			walk_start = 81, walk_end = 100,
+			run_start = 81, run_end = 100, run_speed = 40,
 			-- no death animation so we'll re-use 2 standing frames at a speed of 1 fps
 			-- and have mob rotate while dying.
 			die_start = 1, die_end = 2, die_speed = 1,

@@ -46,7 +46,7 @@ mobs:register_mob("mobs_animal:panda", {
 		stand2_start = 1, stand2_end = 1, -- covers eyes
 		stand3_start = 2, stand3_end = 2, -- surprised
 		walk_start = 10, walk_end = 70,
-		run_start = 10, run_end = 70,
+		run_start = 10, run_end = 70, run_speed = 60,
 		punch_start = 80, punch_end = 120
 	},
 
