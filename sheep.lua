@@ -182,23 +182,9 @@ for _, col in ipairs(all_colours) do
 				textures = parent1.child_texture[1]
 			end
 
-			-- and resize to half height
-			mob:set_properties({
-				textures = {textures},
-				visual_size = {
-					x = parent1.base_size.x * .5, y = parent1.base_size.y * .5
-				},
-				collisionbox = {
-					parent1.base_colbox[1] * .5, parent1.base_colbox[2] * .5,
-					parent1.base_colbox[3] * .5, parent1.base_colbox[4] * .5,
-					parent1.base_colbox[5] * .5, parent1.base_colbox[6] * .5
-				},
-				selectionbox = {
-					parent1.base_selbox[1] * .5, parent1.base_selbox[2] * .5,
-					parent1.base_selbox[3] * .5, parent1.base_selbox[4] * .5,
-					parent1.base_selbox[5] * .5, parent1.base_selbox[6] * .5
-				}
-			})
+			-- set baby mob to half size
+			mobs:scale_mob(ent2, .5, .5)
+			mob:set_properties({textures = {textures}})
 
 			-- tamed and owned by parents' owner
 			ent2.child = true
