@@ -13,6 +13,7 @@ end
 -- Cow by sirrobzeroone
 
 mobs:register_mob("mobs_animal:cow", {
+	description = S("Cow"),
 	type = "animal",
 	passive = false,
 	attack_type = "dogfight",
@@ -36,7 +37,6 @@ mobs:register_mob("mobs_animal:cow", {
 	},
 	walk_velocity = 1,
 	run_velocity = 2,
-	jump = true,
 	jump_height = 6,
 	pushable = true,
 	drops = {

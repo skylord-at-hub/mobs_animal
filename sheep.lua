@@ -80,6 +80,7 @@ for _, col in ipairs(all_colours) do
 	end
 
 	mobs:register_mob("mobs_animal:sheep_" .. col[1], {
+		description = S("@1 Sheep", col[2]),
 		stay_near = {"farming:straw", 10},
 		stepheight = 0.6,
 		type = "animal",
@@ -102,8 +103,7 @@ for _, col in ipairs(all_colours) do
 		walk_velocity = 1,
 		run_velocity = 2,
 		runaway = true,
-		jump = true,
-		jump_height = 6,
+		jump_height = 5,
 		pushable = true,
 		drops = drops_normal,
 		water_damage = 0.01,

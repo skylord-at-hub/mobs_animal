@@ -4,6 +4,7 @@ local S = core.get_translator("mobs_animal")
 -- Panda by AspireMint (CC BY-SA 3.0)
 
 mobs:register_mob("mobs_animal:panda", {
+	description = S("Panda"),
 	stepheight = 0.6,
 	type = "animal",
 	passive = false,
@@ -28,8 +29,7 @@ mobs:register_mob("mobs_animal:panda", {
 	walk_chance = 5,
 	walk_velocity = 0.5,
 	run_velocity = 1.5,
-	jump = false,
-	jump_height = 6,
+	jump_height = 3,
 	follow = {"ethereal:bamboo", "bamboo:trunk", "group:bamboo"},
 	view_range = 8,
 	drops = {

@@ -4,6 +4,7 @@ local S = core.get_translator("mobs_animal")
 -- Bunny by ExeterDad
 
 mobs:register_mob("mobs_animal:bunny", {
+	description = S("Bunny"),
 	type = "animal",
 	passive = true,
 	reach = 1,

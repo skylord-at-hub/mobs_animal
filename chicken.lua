@@ -4,6 +4,7 @@ local S = core.get_translator("mobs_animal")
 -- Chicken by JK Murray and Sirrobzeroone
 
 mobs:register_mob("mobs_animal:chicken", {
+	description = S("Chicken"),
 	stepheight = 0.6,
 	type = "animal",
 	passive = true,

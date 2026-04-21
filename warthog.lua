@@ -4,6 +4,7 @@ local S = core.get_translator("mobs_animal")
 -- Warthog originally by KrupnoPavel, B3D model by sirrobzeroone
 
 mobs:register_mob("mobs_animal:pumba", {
+	description = S("Warthog"),
 	stepheight = 0.6,
 	type = "animal",
 	passive = false,
@@ -27,7 +28,6 @@ mobs:register_mob("mobs_animal:pumba", {
 	},
 	walk_velocity = 2,
 	run_velocity = 3,
-	jump = true,
 	jump_height = 6,
 	pushable = true,
 	follow = {"default:apple", "farming:potato"},
