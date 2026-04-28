@@ -19,10 +19,15 @@ mobs:register_mob("mobs_animal:kitten", {
 	description = S("Kitten"),
 	stepheight = 0.6,
 	type = "animal",
-	specific_attack = {"mobs_animal:rat"},
+	specific_attack = {
+		"mobs_animal:rat",
+		"mobs_animal:chicken",
+		"mobs_fish:clownfish",
+		"mobs_fish:tropical"
+	},
 	damage = 1,
 	attack_type = "dogfight",
-	attack_animals = true, -- so it can attack rat
+	attack_animals = true, -- so it can attack prey
 	attack_players = false,
 	reach = 1,
 	stepheight = 1.1,
@@ -61,7 +66,8 @@ mobs:register_mob("mobs_animal:kitten", {
 	},
 	follow = {
 		"mobs_animal:rat", "group:food_fish_raw", "mobs:glass_milk",
-		"mobs_fish:tropical", "mobs_fish:clownfish", "xocean:fish_edible"
+		"mobs_fish:tropical", "mobs_fish:clownfish", "xocean:fish_edible",
+		"mobs:chicken_raw", "mobs:chicken_cooked", "mobs:rat_cooked"
 	},
 	view_range = 8,
 
