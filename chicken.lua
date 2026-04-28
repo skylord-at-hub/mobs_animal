@@ -28,7 +28,7 @@ mobs:register_mob("mobs_animal:chicken", {
 	walk_velocity = 1,
 	run_velocity = 3,
 	runaway = true,
-	runaway_from = {"player", "mobs_animal:pumba"},
+	runaway_from = {"player", "mobs_animal:pumba", "mobs_animal:kitten"},
 	drops = {
 		{name = "mobs:chicken_raw", chance = 1, min = 1, max = 1},
 		{name = "mobs:chicken_feather", chance = 1, min = 0, max = 2}
@@ -183,7 +183,7 @@ local mobs_shoot_egg = function (item, player, pointed_thing)
 
 	local playerpos = player:get_pos()
 
-	core.sound_play("default_place_node_hard", 
+	core.sound_play("default_place_node_hard",
 			{pos = playerpos, gain = 1.0, max_hear_distance = 5}, true)
 
 	local obj = core.add_entity({
